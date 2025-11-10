@@ -154,7 +154,7 @@ int webnet_module_system_dofile(struct webnet_session *session)
     int fd = -1;    /* file descriptor */
     struct stat file_stat;
     const char *mimetype;
-    rt_size_t file_length;
+    off_t file_length;
     struct webnet_request *request;
 
 #if WEBNET_CACHE_LEVEL > 0
