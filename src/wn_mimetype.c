@@ -51,6 +51,7 @@ static const struct webnet_mime_entry mime_tables[] =
     { "ogg",    "audio/x-oggvorbis" },
     { "wav",    "audio/x-wav" },
     { "class",  "application/octet-stream" },
+    { "bin",    "application/octet-stream" },
     { "js",     "application/x-javascript" },
     { "tar",    "application/x-tar" },
     { "zip",    "application/zip" },
